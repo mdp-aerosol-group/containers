@@ -38,28 +38,28 @@ endfunction
 " Kitty Bindings for REPL interaction
 call setreg('e', ":call SendKittyCommand()")
 
-if &filetype == 'julia'
-	let @d = ':w:silent !kitty @ send-text --match num:1 "@time include(\"%\")\n" '
-	let @f = ':silent !kitty @ send-text --match num:1 "? 0"\n'
-	let @g = ':w:silent !kitty @ send-text --match num:1 "format(\"%\")\n":e!'
-	let @q = ':silent !kitty @ send-text --match num:1 "\0"\n'
-endif
-
-if &filetype == 'matlab'
-	let @d = ':w:silent !kitty @ send-text --match num:1 "run(\"%\")\n" '
-	let @f = ':silent !kitty @ send-text --match num:1 "help 0"\n'
-	let @g = ':w:silent !kitty @ send-text --match num:1 "format(\"%\")\n":e!'
-	let @q = ':silent !kitty @ send-text --match num:1 "\0"\n'
-endif
-
-if &filetype == 'python'
-	let @d = ':w:silent !kitty @ send-text --match num:1 "exec(open(\"%\").read())\n" '
-	let @f = ':silent !kitty @ send-text --match num:1 "help(\"0\")"\n'
-	let @g = ':w:silent !kitty @ send-text --match num:1 "format(\"%\")\n":e!'
-	let @q = ':silent !kitty @ send-text --match num:1 "\0"\n'
-endif
-	
+let @d = ':w:silent !kitty @ send-text --match num:1 "@time include(\"%\")\n" '
+let @f = ':silent !kitty @ send-text --match num:1 "? 0"\n'
+let @g = ':w:silent !kitty @ send-text --match num:1 "format(\"%\")\n":e!'
 let @h = ':silent !kitty @ send-text --match num:1 "@edit 0"\n'
+let @i = ':silent !kitty @ send-text --match num:1 "@enter 0"\n'
+let @j = ':silent !kitty @ send-text --match num:1 "@run 0"\n'
+let @q = ':silent !kitty @ send-text --match num:1 "\0"\n'
+
+" if &filetype == 'matlab'
+" 	let @d = ':w:silent !kitty @ send-text --match num:1 "run(\"%\")\n" '
+" 	let @f = ':silent !kitty @ send-text --match num:1 "help 0"\n'
+" 	let @g = ':w:silent !kitty @ send-text --match num:1 "format(\"%\")\n":e!'
+" 	let @q = ':silent !kitty @ send-text --match num:1 "\0"\n'
+" endif
+
+" if &filetype == 'python'
+" 	let @d = ':w:silent !kitty @ send-text --match num:1 "exec(open(\"%\").read())\n" '
+" 	let @f = ':silent !kitty @ send-text --match num:1 "help(\"0\")"\n'
+" 	let @g = ':w:silent !kitty @ send-text --match num:1 "format(\"%\")\n":e!'
+" 	let @q = ':silent !kitty @ send-text --match num:1 "\0"\n'
+" endif
+	
 
 map <a-r> <ESC>@h  
 imap <a-r> <ESC>@hi  
@@ -77,18 +77,30 @@ vmap <a-s> <C-q>y<ESC>@e<ESC>
 imap <a-s> <ESC>ml0y$@e<ESC>`lli
 nmap <a-s> <ESC>ml0y$@e<ESC>`l
 
-vmap <a-e> <C-q>y<ESC>@h<ESC>
-imap <a-e> <ESC>ml0y$@h<ESC>`lli
-nmap <a-e> <ESC>ml0y$@h<ESC>`l
+vmap <a-e> <C-q>y<ESC>@i<ESC>
+imap <a-e> <ESC>ml0y$@i<ESC>`lli
+nmap <a-e> <ESC>ml0y$@i<ESC>`l
+
+vmap <a-b> <C-q>y<ESC>@e<ESC>
+imap <a-b> <ESC>ml{jv}k$y$@e<ESC>`lli
+nmap <a-b> <ESC>ml{jv}k$y$@e<ESC>`l
+
+vmap <a-r> <C-q>y<ESC>@j<ESC>
+imap <a-r> <ESC>ml0y$@j<ESC>`lli
+nmap <a-r> <ESC>ml0y$@j<ESC>`l
 
 vmap <a-cr> <C-q>y<ESC>@e<ESC>
-imap <a-cr> <ESC>ml[[v][$y$@e<ESC>`lli
-nmap <a-cr> <ESC>ml[[v][$y$@e<ESC>`l
+imap <a-cr> <ESC>ml[[0v][$y$@e<ESC>`lli
+nmap <a-cr> <ESC>ml[[0v][$y$@e<ESC>`l
 
 " Comment and uncomment via <CTRL-/>
 nmap <C-_> mlVgc<CR>`l
 vmap <C-_> mlgc<CR>`l
 imap <C-_> <ESC>mlgc<CR>`li
+
+nmap <C-/> mlVgc<CR>`l
+vmap <C-/> mlgc<CR>`l
+imap <C-/> <ESC>mlgc<CR>`li
 
 nnoremap <esc> :noh<return><esc>
 
@@ -147,14 +159,14 @@ set laststatus=2
 
 runtime macros/matchit.vim
 
-let g:NERDTreeQuitOnOpen = 1
+let g:NERDTreeQuitOnOpen = 0
 :nnoremap <C-b> :NERDTreeToggle<CR>
+:let g:NERDTreeWinSize=30
+au VimEnter *  NERDTree
 
 set mouse=a
 
 filetype plugin on
-
-":lua require('kitty-runner')
 
 " julia
 let g:default_julia_version = '1.0'
