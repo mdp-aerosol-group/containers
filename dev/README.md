@@ -27,9 +27,16 @@ To remove the dev container run
 [user@host ~]$ distrobox rm -f dev-latest
 ```
 
-### Export VS Code to local installation
+### Export VS Code and Terminal to local installation
 
 ```bash
+distrobox-export --app code
+```
+
+```bash
+distrobox-export --app kitty
+```
+
 
 ### Build container locally
 You can build the container locally using podman. 
