@@ -25,8 +25,8 @@ COPY extra-packages /
 RUN dnf -y install $(<extra-packages)
 RUN rm /extra-packages
 
-RUN dnf config-manager --set-enabled google-chrome && \
-    dnf install google-chrome-stable
+RUN dnf -y config-manager --set-enabled google-chrome && \
+    dnf -y install google-chrome-stable
 
 ENV JULIA_VERSION=1.8.1
 
