@@ -4,6 +4,7 @@ bzip2
 code
 diffutils
 dnf-plugins-core
+fedora-workstation-repositories 
 findutils
 flatpak-spawn
 fpaste
@@ -64,5 +65,6 @@ wget
 which
 words
 xorg-x11-xauth
+xprop
 xz
 zip

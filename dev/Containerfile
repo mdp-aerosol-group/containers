@@ -25,7 +25,7 @@ COPY extra-packages /
 RUN dnf -y install $(<extra-packages)
 RUN rm /extra-packages
 
-ENV JULIA_VERSION=1.8.0
+ENV JULIA_VERSION=1.8.1
 
 # Download and install julia version
 RUN mkdir /opt/julia-${JULIA_VERSION} && \
