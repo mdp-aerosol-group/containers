@@ -9,8 +9,10 @@ findutils
 flatpak-spawn
 fpaste
 fish
+filezilla
 firefox
 fontconfig
+fzf
 gcc
 gfortran
 glibc-all-langpacks
