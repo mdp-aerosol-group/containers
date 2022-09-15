@@ -17,6 +17,8 @@ RUN dnf -y swap coreutils-single coreutils-full
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc
 RUN sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 
+RUN dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-`rpm -E %fedora`.noarch.rpm
+
 COPY missing-docs /
 RUN dnf -y reinstall $(<missing-docs)
 RUN rm /missing-docs

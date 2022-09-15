@@ -4,6 +4,8 @@ bzip2
 code
 diffutils
 dnf-plugins-core
+evince
+eog
 fedora-workstation-repositories 
 findutils
 flatpak-spawn
@@ -71,3 +73,11 @@ xorg-x11-xauth
 xprop
 xz
 zip
+GMT 
+dcw-gmt 
+gshhg-gmt-nc4 
+gshhg-gmt-nc4-full 
+gshhg-gmt-nc4-high 
+ghostscript
+ffmpeg
+GraphicsMagick
