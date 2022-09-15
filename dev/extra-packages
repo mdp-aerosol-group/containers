@@ -17,12 +17,13 @@ fontconfig
 fzf
 gcc
 gfortran
-glibc-all-langpacks
 git
 gsl-devel
+glibc-all-langpacks
 g++
 gnupg
 gnupg2-smime
+gnome-console
 gvfs-client
 hostname
 htop
