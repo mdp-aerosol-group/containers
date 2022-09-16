@@ -1,0 +1,618 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/petters/
+	..
+1618251628
+'b
+	/home/petters/bin/
+	..
+1620083072
+'h
+	/home/petters/
+	..
+1620083072
+'z
+	/home/petters/.config/vifm
+	..
+1618251628
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v1
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/petters/Documents
+	..
+0
+d/home/petters
+	Documents
+4
+d/home/petters/Documents
+	Research
+5
+d/home/petters/Documents/Research
+	amsulf.jl
+21
+d/home/petters/Documents/Proposals/NSF-EPCAPE-CHEM-2021/src
+	..
+0
+d/home/petters/Documents/Proposals/NSF-EPCAPE-CHEM-2021
+	src
+2
+d/home/petters/Documents/Proposals/NSF-EPCAPE-CHEM-2021/src
+	denuder.jl
+1
+d/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src
+	Figures
+2
+d/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src
+	Figures
+2
+d/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src
+	Scripts
+3
+d/home/petters
+	Documents
+4
+d/home/petters/Documents
+	Research
+5
+d/home/petters/Documents/Research
+	foo.png
+25
+d/home/petters
+	Documents
+4
+d/home/petters/Documents
+	Research
+5
+d/home/petters/Documents/Research
+	foo.png
+25
+d/home/petters
+	Public
+10
+d/home
+	mdpetter
+1
+d/home/mdpetter
+	foo
+14
+d/home/mdpetter/foo
+	..
+0
+d/home/mdpetter
+	Documents
+3
+d/home/mdpetter/Documents
+	Manuscripts
+5
+d/home/mdpetter/Documents/Manuscripts
+	100 Years of Progress In Cloud Physics, Aerosols, and Aerosol Chemistry
+1
+d/home/mdpetter/Documents/Manuscripts/100 Years of Progress In Cloud Physics, Aerosols, and Aerosol Chemistry
+	citationdata.csv
+31
+d/home/mdpetter/Documents/Projects/Research
+	foo.png
+8
+d/home/petters/Documents/Research
+	foo.png
+27
+d/home/petters
+	..
+0
+d/home
+	petters
+2
+d/home/petters/Documents/Research/NSF-AGS-2037704/NSF-AGS-2037704-UDAC/src
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-2037704/NSF-AGS-2037704-UDAC
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-2037704
+	..
+0
+d/home/petters/Documents/Research
+	NSF-AGS-1946340
+4
+d/home/petters/Documents/Research/NSF-AGS-1946340
+	NSF-AGS-1946340-HTDMA-Analysis
+3
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-HTDMA-Analysis
+	src
+2
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-HTDMA-Analysis/src
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-HTDMA-Analysis
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-1946340
+	..
+0
+d/home/petters/Documents/Research
+	DOE-SC0021074
+3
+d/home/petters/Documents/Research/DOE-SC0021074
+	DOE-SC0021074-HTDMA-inversion
+3
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion
+	src
+2
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/src
+	paper
+6
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/src/paper
+	sgpLoaders.jl
+13
+d/home/petters/Documents/Research
+	foo.png
+29
+d/home/petters
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-POPS-Calibration/tmatrix
+	validate_code.jl
+16
+d/home/petters
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-POPS-Calibration/tmatrix
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-POPS-Calibration
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074
+	..
+0
+d/home/petters/Documents/Research
+	NSF-AGS-1946340
+9
+d/home/petters/Documents/Research/NSF-AGS-1946340
+	NSF-AGS-1946340-Fall-2019
+2
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-Fall-2019
+	other
+4
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-Fall-2019/other
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-Fall-2019
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-1946340
+	NSF-AGS-1946340-Zimmerman-2020
+5
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-Zimmerman-2020
+	scripts
+5
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-Zimmerman-2020/scripts
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-1946340/NSF-AGS-1946340-Zimmerman-2020
+	scripts
+5
+d/home/petters
+	tuxbear
+6
+d/home/petters/tuxbear
+	..
+0
+d/home/petters
+	snap
+4
+d/home/petters/snap
+	mutt
+2
+d/home/petters/snap/mutt
+	265
+2
+d/home/petters/snap/mutt/265
+	..
+0
+d/home/petters/snap/mutt
+	265
+2
+d/home/petters/snap/mutt/265
+	..
+0
+d/home/petters/snap/mutt
+	..
+0
+d/home/petters/snap
+	..
+0
+d/home/petters
+	Downloads
+4
+d/home/petters/Downloads
+	f05 (1).jl
+9
+d/home/petters/Documents/Research/DOE-SC0018265/DOE-SC0018265-Ice-Paper/src
+	chamber.jl
+5
+d/home/petters/Documents
+	Research
+5
+d/home/petters/Documents/Research
+	Gtk.jl
+5
+d/home/petters/Documents/Research/Gtk.jl
+	gen
+3
+d/home/petters/Documents/Research/DOE-SC0021074/softwarePackageSimplify2021/src/figures
+	
+0
+d/home/petters/Documents/Research/DOE-SC0021074
+	DOE-SC0021074-HTDMA-inversion
+3
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion
+	softwarePackageSimplify2021
+2
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021
+	src
+2
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src
+	figures
+1
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures
+	f01_revised.jl
+5
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/src
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion
+	softwarePackageSimplify2021
+2
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021
+	src
+2
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src
+	figures
+1
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures
+	f01.jl
+4
+d/home/petters
+	foo.txt
+20
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures
+	figures
+1
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures/figures
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures
+	figures
+1
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures/figures
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/figures
+	..
+0
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src
+	processing
+2
+d/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/softwarePackageSimplify2021/src/processing
+	Project.toml
+2
+d/home/petters/Documents/Research/NSF-AGS-2037704
+	NSF-AGS-2037704-Fit
+1
+d/home/petters/Documents/Research/NSF-AGS-2037704/NSF-AGS-2037704-Fit/src/sample
+	..
+0
+d/home/petters/Documents/Research/NSF-AGS-2037704/NSF-AGS-2037704-Fit/src
+	Project.toml
+3
+d/home/petters/Documents/Research/NSF-AGS-2037704/NSF-AGS-2037704-Fit
+	src
+1
+d/home/petters/Documents/Research/NSF-AGS-2037704/NSF-AGS-2037704-Fit/src
+	process.jl
+4
+d
+
+# Right window history (oldest to newest):
+D/home/petters/Documents/Teaching/MEA-412-2021/modules/notebooks
+	..
+0
+D/home/petters/Documents/Teaching/MEA-412-2021/modules
+	..
+0
+D/home/petters/Documents/Teaching/MEA-412-2021
+	..
+0
+D/home/petters/Documents/Teaching
+	..
+0
+D/home/petters/Documents
+	Teaching
+7
+D/home/petters
+	Documents
+4
+D/home/petters/Documents
+	Teaching
+7
+D/home
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:e example.jl
+:!evince Respone\ to\ referees.pdf
+:e foo.jl
+:e asd
+:e goo.jl
+:!alacritty
+:filetype
+:filetype svg
+:filetype f03.svg
+:filetype on
+:help filetype
+:help vifm-:fileviewer
+:help fileviewer
+:fileviewer
+:filetype *.pdf evince
+:filetype *.png eog
+:q]
+:?
+:highlight
+:o evince
+:!evince
+:!evince %c
+:new
+:help
+:!vim
+:!feh
+:!feh --image-bg #1c1c1c" fig.png -Z -. --auto-reload -x
+:!feh --image-bg "#1c1c1c" fig.png -Z -. --auto-reload -x
+:h
+:wq
+:vsplit
+:!alacritty &
+:!cp ~/Downloads/f01_revised.jl .
+:e testA.jl
+:Q
+:q
+
+# Search history (oldest to newest):
+/.jl
+
+# Prompt history (oldest to newest):
+pNSF-AFS-2037704-Fit
+pNSF-AGS-2037704-Fite
+pNSF-AGS-2037704-Fit
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/petters/.local/share/vifm/Trash/000_julia-1.6.0-linux-aarch64.tar.gz
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/petters/.local/share/vifm/Trash/000_]
+	/home/petters/Documents/Research/]
+t/home/petters/.local/share/vifm/Trash/000_charges.jl~
+	/home/petters/Documents/Research/charges.jl~
+t/home/petters/.local/share/vifm/Trash/000_Screenshot from 2021-03-10 23-06-42.png
+	/home/petters/Documents/Research/Screenshot from 2021-03-10 23-06-42.png
+t/home/petters/.local/share/vifm/Trash/000_\
+	/home/petters/dotfiles/\
+t/home/petters/.local/share/vifm/Trash/000_IR_20190524.avi
+	/home/petters/IR_20190524.avi
+t/home/petters/.local/share/vifm/Trash/000_IR_20190524.mp4
+	/home/petters/IR_20190524.mp4
+t/home/petters/.local/share/vifm/Trash/000_IR_mov.avi
+	/home/petters/IR_mov.avi
+t/home/petters/.local/share/vifm/Trash/000_IR_movie.avi
+	/home/petters/IR_movie.avi
+t/home/petters/.local/share/vifm/Trash/000_IR_movie.mp4
+	/home/petters/IR_movie.mp4
+t/home/petters/.local/share/vifm/Trash/000_VIS_20190524.avi
+	/home/petters/VIS_20190524.avi
+t/home/petters/.local/share/vifm/Trash/000_VIS_20190524.mp4
+	/home/petters/VIS_20190524.mp4
+t/home/petters/.local/share/vifm/Trash/000_VIS_movie.avi
+	/home/petters/VIS_movie.avi
+t/home/petters/.local/share/vifm/Trash/000_VIS_movie.mp4
+	/home/petters/VIS_movie.mp4
+t/home/petters/.local/share/vifm/Trash/000_ext_image_viewer=false
+	/home/petters/ext_image_viewer=false
+t/home/petters/.local/share/vifm/Trash/000_feh_535333_000001_foo.png
+	/home/petters/feh_535333_000001_foo.png
+t/home/petters/.local/share/vifm/Trash/000_foo.gif
+	/home/petters/foo.gif
+t/home/petters/.local/share/vifm/Trash/000_foo.html
+	/home/petters/foo.html
+t/home/petters/.local/share/vifm/Trash/000_foo.jl
+	/home/petters/foo.jl
+t/home/petters/.local/share/vifm/Trash/000_foo.png
+	/home/petters/foo.png
+t/home/petters/.local/share/vifm/Trash/000_foo1.html
+	/home/petters/foo1.html
+t/home/petters/.local/share/vifm/Trash/000_foo1.jl
+	/home/petters/foo1.jl
+t/home/petters/.local/share/vifm/Trash/000_sizedist.jl
+	/home/petters/sizedist.jl
+t/home/petters/.local/share/vifm/Trash/000_tg
+	/home/petters/tg
+t/home/petters/.local/share/vifm/Trash/000_trigger
+	/home/petters/trigger
+t/home/petters/.local/share/vifm/Trash/000_guiTDMA.tar.xz
+	/home/petters/texmf/guiTDMA.tar.xz
+t/home/petters/.local/share/vifm/Trash/000_f02.png
+	/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures/f02.png
+t/home/petters/.local/share/vifm/Trash/000_f03.png
+	/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures/f03.png
+t/home/petters/.local/share/vifm/Trash/000_f04.png
+	/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures/f04.png
+t/home/petters/.local/share/vifm/Trash/000_f06.png
+	/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures/f06.png
+t/home/petters/.local/share/vifm/Trash/000_f09.png
+	/home/petters/Documents/Research/DOE-SC0021074/openHardwareDesignPrecipitator2021/src/Figures/f09.png
+t/home/petters/.local/share/vifm/Trash/000_vscjlsymserv-5628ed75-95a6-4b0f-bb5e-f3cfac8d16b3
+	/home/petters/vscjlsymserv-5628ed75-95a6-4b0f-bb5e-f3cfac8d16b3
+t/home/petters/.local/share/vifm/Trash/000_soo.jl
+	/home/petters/soo.jl
+t/home/petters/.local/share/vifm/Trash/000_julia-1.6.0-linux-aarch64.tar.gz
+	/home/petters/julia-1.6.0-linux-aarch64.tar.gz
+t/home/petters/.local/share/vifm/Trash/000_foo
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-POPS-Calibration/tmatrix/foo
+t/home/petters/.local/share/vifm/Trash/000_airline.vim
+	/home/petters/dotfiles/.vim/autoload/airline.vim
+t/home/petters/.local/share/vifm/Trash/000_init.vim
+	/home/petters/dotfiles/.vim/plugin/init.vim
+t/home/petters/.local/share/vifm/Trash/001_airline.vim
+	/home/petters/dotfiles/.vim/plugin/airline.vim
+t/home/petters/.local/share/vifm/Trash/000_builder.vim
+	/home/petters/dotfiles/.vim/plugin/builder.vim
+t/home/petters/.local/share/vifm/Trash/000_extensions_default.vim
+	/home/petters/dotfiles/.vim/plugin/extensions_default.vim
+t/home/petters/.local/share/vifm/Trash/000_extensions_tabline.vim
+	/home/petters/dotfiles/.vim/plugin/extensions_tabline.vim
+t/home/petters/.local/share/vifm/Trash/001_foo1.jl
+	/home/petters/dotfiles/.vim/plugin/foo1.jl
+t/home/petters/.local/share/vifm/Trash/000_highlighter.vim
+	/home/petters/dotfiles/.vim/plugin/highlighter.vim
+t/home/petters/.local/share/vifm/Trash/000_parts.vim
+	/home/petters/dotfiles/.vim/plugin/parts.vim
+t/home/petters/.local/share/vifm/Trash/000_section.vim
+	/home/petters/dotfiles/.vim/plugin/section.vim
+t/home/petters/.local/share/vifm/Trash/000_themes.vim
+	/home/petters/dotfiles/.vim/plugin/themes.vim
+t/home/petters/.local/share/vifm/Trash/000_util.vim
+	/home/petters/dotfiles/.vim/plugin/util.vim
+t/home/petters/.local/share/vifm/Trash/000_commands.vim
+	/home/petters/dotfiles/.vim/plugin/commands.vim
+t/home/petters/.local/share/vifm/Trash/000_airline.txt
+	/home/petters/dotfiles/.vim/doc/airline.txt
+t/home/petters/.local/share/vifm/Trash/000_autoload
+	/home/petters/dotfiles/autoload
+t/home/petters/.local/share/vifm/Trash/000_doc
+	/home/petters/dotfiles/doc
+t/home/petters/.local/share/vifm/Trash/000_plugin
+	/home/petters/dotfiles/plugin
+t/home/petters/.local/share/vifm/Trash/002_airline.vim
+	/home/petters/dotfiles/.vim/airline.vim
+t/home/petters/.local/share/vifm/Trash/001_t
+	/home/petters/dotfiles/.vim/t
+t/home/petters/.local/share/vifm/Trash/000_magit
+	/home/petters/dotfiles/.vim/magit
+t/home/petters/.local/share/vifm/Trash/000_airline
+	/home/petters/dotfiles/.vim/airline
+t/home/petters/.local/share/vifm/Trash/000_mmtemplates
+	/home/petters/dotfiles/.vim/autoload/mmtemplates
+t/home/petters/.local/share/vifm/Trash/000_airline-themes.vim
+	/home/petters/dotfiles/.vim/plugin/airline-themes.vim
+t/home/petters/.local/share/vifm/Trash/000_magit.vim
+	/home/petters/dotfiles/.vim/plugin/magit.vim
+t/home/petters/.local/share/vifm/Trash/000_matlab-support
+	/home/petters/dotfiles/.vim/matlab-support
+t/home/petters/.local/share/vifm/Trash/001_magit.vim
+	/home/petters/dotfiles/.vim/syntax/magit.vim
+t/home/petters/.local/share/vifm/Trash/000_test
+	/home/petters/dotfiles/.vim/test
+t/home/petters/.local/share/vifm/Trash/000_.netrwhist
+	/home/petters/dotfiles/.vim/.netrwhist
+t/home/petters/.local/share/vifm/Trash/000_after
+	/home/petters/dotfiles/.vim/after
+t/home/petters/.local/share/vifm/Trash/000_bundle
+	/home/petters/dotfiles/.vim/bundle
+t/home/petters/.local/share/vifm/Trash/000_common
+	/home/petters/dotfiles/.vim/common
+t/home/petters/.local/share/vifm/Trash/000_CSApprox.vim
+	/home/petters/dotfiles/.vim/CSApprox.vim
+t/home/petters/.local/share/vifm/Trash/000_INSTALL.md
+	/home/petters/dotfiles/.vim/INSTALL.md
+t/home/petters/.local/share/vifm/Trash/000_LICENSE.md
+	/home/petters/dotfiles/.vim/LICENSE.md
+t/home/petters/.local/share/vifm/Trash/000_README.md
+	/home/petters/dotfiles/.vim/README.md
+t/home/petters/.local/share/vifm/Trash/000_asyncrun.vim
+	/home/petters/dotfiles/.vim/asyncrun.vim
+t/home/petters/.local/share/vifm/Trash/000_conque_term.vim
+	/home/petters/dotfiles/.vim/conque_term.vim
+t/home/petters/.local/share/vifm/Trash/000_logo.png
+	/home/petters/dotfiles/.vim/logo.png
+t/home/petters/.local/share/vifm/Trash/000_matlab-support.vim
+	/home/petters/dotfiles/.vim/matlab-support.vim
+t/home/petters/.local/share/vifm/Trash/000_octave-workspace
+	/home/petters/dotfiles/.vim/octave-workspace
+t/home/petters/.local/share/vifm/Trash/000_vim-markdown-preview.vim
+	/home/petters/dotfiles/.vim/vim-markdown-preview.vim
+t/home/petters/.local/share/vifm/Trash/000_manuscript.lyx~ (1)
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript.lyx~ (1)
+t/home/petters/.local/share/vifm/Trash/000_manuscript.lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript.lyx~
+t/home/petters/.local/share/vifm/Trash/000_manuscript1.lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript1.lyx~
+t/home/petters/.local/share/vifm/Trash/000_manuscript1.lyx~ (1)
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript1.lyx~ (1)
+t/home/petters/.local/share/vifm/Trash/000_manuscript2.aux
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript2.aux
+t/home/petters/.local/share/vifm/Trash/000_manuscript2.log
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript2.log
+t/home/petters/.local/share/vifm/Trash/000_manuscript2.lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript2.lyx~
+t/home/petters/.local/share/vifm/Trash/000_manuscript2.lyx~ (1)
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript2.lyx~ (1)
+t/home/petters/.local/share/vifm/Trash/000_manuscript2.tex
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript2.tex
+t/home/petters/.local/share/vifm/Trash/000_manuscript3.aux
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript3.aux
+t/home/petters/.local/share/vifm/Trash/000_manuscript3.bbl
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript3.bbl
+t/home/petters/.local/share/vifm/Trash/000_manuscript3.blg
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript3.blg
+t/home/petters/.local/share/vifm/Trash/000_manuscript3.log
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript3.log
+t/home/petters/.local/share/vifm/Trash/000_manuscript3.pdf
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript3.pdf
+t/home/petters/.local/share/vifm/Trash/000_manuscript3.tex
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript3.tex
+t/home/petters/.local/share/vifm/Trash/000_manuscript_revised.lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/manuscript_revised.lyx~
+t/home/petters/.local/share/vifm/Trash/000_missfont.log
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/missfont.log
+t/home/petters/.local/share/vifm/Trash/000_overvflow.lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/overvflow.lyx~
+t/home/petters/.local/share/vifm/Trash/000_overvflow.lyx~ (1)
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/overvflow.lyx~ (1)
+t/home/petters/.local/share/vifm/Trash/000_supporting(1).lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/supporting(1).lyx~
+t/home/petters/.local/share/vifm/Trash/000_supporting.lyx~
+	/home/petters/Documents/Research/DOE-SC0021074/DOE-SC0021074-HTDMA-inversion/doc/supporting.lyx~
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
