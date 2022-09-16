@@ -42,8 +42,12 @@ RUN ln -fs /opt/julia-*/bin/julia /usr/local/bin/julia
 
 # Patch libstdc++ of julia 1.8.1. to allow compilation of GMT.jl
 RUN cp /usr/lib64/libstdc++.so.6 /opt/julia-1.8.1/lib/julia/libstdc++.so	
+
 # GMT.jl needs libgmt and requires generic lib 
 RUN ln -s /usr/lib64/libgmt.so.6 /usr/lib64/libgmt.so
+
+# Install yarn (needed for MarkdownPreview plugin)
+RUN npm install --global yarn
 
 RUN touch /etc/localtime
 
