@@ -13,7 +13,6 @@ Prerequisites: [podman](https://podman.io/) and [distrobox](https://github.com/8
 ### Build from cloud
 
 ```bash
-[user@host ~]$ mkdir dev
 [user@host ~]$ distrobox create --image docker.io/mdpetters/dev:latest --name dev
 [user@host ~]$ distrobox enter dev
 ```
@@ -29,14 +28,36 @@ To remove the dev container run
 
 ### Export VS Code and Terminal to local installation
 
+Export VS Code
 ```bash
 distrobox-export --app code
 ```
 
+Export Google Chrome
+```bash
+distrobox-export --app google-chrome
+```
+
+Export the Kitty Terminal (if needed)
 ```bash
 distrobox-export --app kitty
 ```
 
+### Update VS Code and Chrome/Install new Packages 
+
+The package manager is ```dnf```. The command requires admin privileges, which you obtain via ```sudo -s```.  
+```bash
+[user@host ~]$ distrobox enter dev
+[user@dev ~]$ sudo -s
+[root@dev ~]$ dnf upgrade
+```
+
+To install new packages run ```dnf install``` followed by the package name. The container is based on the latest Fedora distribution. You can search for packages here: ```https://packages.fedoraproject.org/```. 
+```bash
+[user@host ~]$ distrobox enter dev
+[user@dev ~]$ sudo -s
+[root@dev ~]$ dnf install ...
+```
 
 ### Build container locally
 You can build the container locally using podman. 
