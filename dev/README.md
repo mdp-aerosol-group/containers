@@ -14,8 +14,8 @@ Prerequisites: [podman](https://podman.io/) and [distrobox](https://github.com/8
 
 ```bash
 [user@host ~]$ mkdir dev
-[user@host ~]$ distrobox create --image docker.io/mdpetters/dev:latest 
-[user@host ~]$ distrobox enter dev-latest
+[user@host ~]$ distrobox create --image docker.io/mdpetters/dev:latest --name dev
+[user@host ~]$ distrobox enter dev
 ```
 
 Note that all config files will be written to ```$HOME/```. This will integrate tightly with your local configuration.
@@ -24,7 +24,7 @@ To remove the dev container run
 
 
 ```bash
-[user@host ~]$ distrobox rm -f dev-latest
+[user@host ~]$ distrobox rm -f dev
 ```
 
 ### Export VS Code and Terminal to local installation
