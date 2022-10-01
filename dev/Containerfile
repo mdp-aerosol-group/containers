@@ -49,6 +49,13 @@ RUN ln -s /usr/lib64/libgmt.so.6 /usr/lib64/libgmt.so
 # Install yarn (needed for MarkdownPreview plugin)
 RUN npm install --global yarn
 
+RUN git clone https://github.com/andizuend/AIOMFAC.git && \
+    cd AIOMFAC/FortranCode/ && \
+    make && \
+    cp AIOMFAC-web.out /usr/bin/AIOMFAC && \
+    cd ../../ && \
+    rm -rf AIOMFAC/
+
 RUN touch /etc/localtime
 
 RUN dnf clean all
