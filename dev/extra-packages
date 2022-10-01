@@ -65,6 +65,7 @@ sudo
 sundials-devel
 tcpdump
 time
+tmux
 traceroute
 tree
 unzip
