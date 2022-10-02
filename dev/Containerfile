@@ -30,7 +30,7 @@ RUN rm /extra-packages
 RUN dnf -y config-manager --set-enabled google-chrome && \
     dnf -y install google-chrome-stable
 
-ENV JULIA_VERSION=1.8.1
+ENV JULIA_VERSION=1.8.2
 
 # Download and install julia version
 RUN mkdir /opt/julia-${JULIA_VERSION} && \
