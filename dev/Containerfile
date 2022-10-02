@@ -41,7 +41,7 @@ RUN mkdir /opt/julia-${JULIA_VERSION} && \
 RUN ln -fs /opt/julia-*/bin/julia /usr/local/bin/julia
 
 # Patch libstdc++ of julia 1.8.1. to allow compilation of GMT.jl
-RUN cp /usr/lib64/libstdc++.so.6 /opt/julia-1.8.1/lib/julia/libstdc++.so	
+RUN cp /usr/lib64/libstdc++.so.6 /opt/julia-${JULIA_VERSION}/lib/julia/libstdc++.so	
 
 # GMT.jl needs libgmt and requires generic lib 
 RUN ln -s /usr/lib64/libgmt.so.6 /usr/lib64/libgmt.so
