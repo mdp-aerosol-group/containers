@@ -2,6 +2,7 @@ bash-completion
 bc
 bzip2
 code
+conda
 diffutils
 dnf-plugins-core
 evince
