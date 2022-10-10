@@ -62,6 +62,7 @@ pigz
 procps-ng
 rsync
 shadow-utils
+sshfs
 sudo
 sundials-devel
 tcpdump
