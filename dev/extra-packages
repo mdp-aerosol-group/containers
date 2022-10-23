@@ -38,8 +38,8 @@ kitty
 krb5-libs
 langpacks-en 
 less
-libusb
-libusb-devel
+libusb1
+libusb1-devel
 libwayland-cursor
 libwayland-egl
 libEGL-devel
