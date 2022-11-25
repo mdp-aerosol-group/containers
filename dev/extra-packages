@@ -1,10 +1,12 @@
 bash-completion
 bc
 bzip2
+cmake
 code
 conda
 diffutils
 dnf-plugins-core
+environment-modules
 evince
 eog
 fedora-workstation-repositories 
@@ -17,7 +19,9 @@ firefox
 fontconfig
 freecad
 fzf
+ghostscript
 gcc
+gcc-gfortran
 gfortran
 git
 gsl-devel
@@ -26,6 +30,9 @@ g++
 gnupg
 gnupg2-smime
 gnome-console
+gshhg-gmt-nc4 
+gshhg-gmt-nc4-full 
+gshhg-gmt-nc4-high 
 gvfs-client
 hostname
 htop
@@ -45,6 +52,7 @@ libwayland-egl
 libEGL-devel
 lsof
 make
+mpich-devel
 cmake
 man-db
 man-pages
@@ -57,12 +65,13 @@ neovim
 npm
 nss-mdns
 openssh-clients
+openmpi
+openmpi-devel
 passwd
 pigz
 procps-ng
 rsync
 shadow-utils
-sshfs
 sudo
 sundials-devel
 tcpdump
@@ -83,9 +92,5 @@ xz
 zip
 GMT 
 dcw-gmt 
-gshhg-gmt-nc4 
-gshhg-gmt-nc4-full 
-gshhg-gmt-nc4-high 
-ghostscript
 ffmpeg
 GraphicsMagick

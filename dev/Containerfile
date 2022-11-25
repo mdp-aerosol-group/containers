@@ -30,7 +30,7 @@ RUN rm /extra-packages
 RUN dnf -y config-manager --set-enabled google-chrome && \
     dnf -y install google-chrome-stable
 
-ENV JULIA_VERSION=1.8.2
+ENV JULIA_VERSION=1.8.3
 
 # Download and install julia version
 RUN mkdir /opt/julia-${JULIA_VERSION} && \
@@ -49,15 +49,16 @@ RUN ln -s /usr/lib64/libgmt.so.6 /usr/lib64/libgmt.so
 # Install yarn (needed for MarkdownPreview plugin)
 RUN npm install --global yarn
 
+# Install AIOMFAC model
 RUN git clone https://github.com/andizuend/AIOMFAC.git && \
     cd AIOMFAC/FortranCode/ && \
     make && \
     cp AIOMFAC-web.out /usr/bin/AIOMFAC && \
-    cd ../../ && \
-    rm -rf AIOMFAC/
+    cd ../../ 
 
 RUN pip install trash-cli jupyter
 
+# Install PartMC model
 RUN git clone https://github.com/compdyn/partmc.git && \
     mkdir /build && \
     cd /build && \
@@ -68,6 +69,15 @@ RUN git clone https://github.com/compdyn/partmc.git && \
           /partmc && \
      make && \
      cp partmc /usr/bin/partmc
+
+# Install DALES model
+RUN git clone https://github.com/dalesteam/dales.git && \ 
+    ln -s /usr/lib64/openmpi/bin/mpif90 /usr/bin/mpif90 && \
+    mkdir -p /dales/build && \
+    cd /dales/build && \
+    cmake /dales && \
+    make -j && \  
+    ln -s /dales/build/src/dales4.4 /usr/bin/dales
 
 RUN touch /etc/localtime
 
