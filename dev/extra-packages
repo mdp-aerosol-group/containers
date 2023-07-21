@@ -24,6 +24,7 @@ gcc
 gcc-gfortran
 gfortran
 git
+glade
 gsl-devel
 glibc-all-langpacks
 g++
@@ -67,6 +68,7 @@ nss-mdns
 openssh-clients
 openmpi
 openmpi-devel
+osmctools
 passwd
 pigz
 procps-ng
